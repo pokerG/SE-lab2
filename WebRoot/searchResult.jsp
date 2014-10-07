@@ -22,7 +22,7 @@
 	
 	<div class="container">
 		<h2>Search Result</h2>
-		<table class="table">
+		<table class="table table-hover">
 			<tr>
 				<td>Title</td>
 				<td>Publisher</td>

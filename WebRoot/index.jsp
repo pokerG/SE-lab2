@@ -22,6 +22,7 @@
 	
 	<div class="container">
 		<div class="container">
+			<img src="image/book.jpg"  class="bookimg">	
 		</div>
 		<h1 class="text-center">Search Books</h1>
 		<s:actionerror cssClass="alert alert-danger" />

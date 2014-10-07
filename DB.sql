@@ -37,3 +37,4 @@ INSERT INTO Book (ISBN, Title, AuthorID, Publisher, PublishDate, Price) VALUES (
 INSERT INTO Book (ISBN, Title, AuthorID, Publisher, PublishDate, Price) VALUES ('978-7-121-15553-6', '研究之美', 4, '电子工业出版社', '2012-01-01', 27.10);
 SELECT * FROM Book WHERE AuthorID in (SELECT AuthorID FROM Author WHERE name LIKE "%唐纳德%");
 SELECT * FROM Book WHERE TiTle LIKE "%计算机%";
+SELECT * FROM Book WHERE Title LIKE "%易中天%"
