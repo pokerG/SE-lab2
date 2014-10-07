@@ -1,0 +1,24 @@
+@CHARSET "UTF-8";
+
+.bookimg{
+	position: relative;
+	left:400px;
+}
+.search-box {
+	margin: 0 auto;
+	width: 80%;
+	text-indent: 4px;
+}
+
+#main > table {
+	margin: 0 auto;
+}
+
+#main_keyword {
+	width: 280px;
+}
+
+.label {
+	color: #000000;
+	font-size: 16px;
+}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+ 
+<struts>
+	<constant name="struts.devMode" value="false" /> <!-- 开发者模式 Debug -->
+	<constant name="struts.enable.DynamicMethodInvocation" value="true" /> <!-- 允许submit button执行非execute()的函数 -->
+
+    <package name="default" extends="struts-default" namespace="/"> <!-- namespace设置为/ -->
+        <action name="main"
+        	class="BsM.action.MainAction">
+        	<result name="success">searchResult.jsp</result>
+        	<result name="error">index.jsp</result>
+        </action>
+        <action name="detail"
+        	class="BsM.action.DetailAction">
+        	<result name="success">bookDetail.jsp</result>
+        	<result name="error">index.jsp</result>
+        </action>
+        <action name="edit"
+        	class="BsM.action.EditAction">
+        	<result name="success">index.jsp</result>
+        	<result name="error">index.jsp</result>
+        </action>
+        <!-- 每个Action有不同的名字，根据return的result不同使用不同的jsp template -->
+    </package>
+</struts>
