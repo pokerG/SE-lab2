@@ -14,9 +14,4 @@
   <welcome-file-list>
     <welcome-file>index.jsp</welcome-file> <!-- 主页 -->
   </welcome-file-list>
-  <listener> <!-- 部署到SAE上的监听器 -->
-  	<listener-class>
-  		BsM.util.Listener <!-- 调用监听器 -->
-  	</listener-class>
-  </listener>
 </web-app>
